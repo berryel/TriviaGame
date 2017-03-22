@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Martin Trivia</title>
+
+	<!-- Latest compiled and minified CSS -->
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+<!-- link to google fonts
+ -->
+ <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700" rel="stylesheet">
+ <!-- link to stylesheet -->
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-2">
+			<div id="counter">	
+				</div>
+			</div>
+			<div class="col-md-8" id="headerImg">
+				<img src="./assets/images/martinWhole.jpg" id="cast" alt="cast" style="width: 520px; height: 281px"> 
+				<h1>Trivia</h1>
+			</div>
+			<div class="col-md-2">	
+			</div>
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-md-2">	
+			</div>
+
+			<div class="col-md-10">
+				<!-- <div id="startButton">
+				<button type="button" class="btn btn-primary btn-lg active" id="remButton">START</button>
+				</div> -->
+			
+
+			<div id=quiz>
+			<form  id="quizTemp" action="./assets/javascript/app.js">
+				<p>Question 1: In episode #6 titled "Forever Sheneneh", who did Sheneneh win a date with on Martin's radio show?
+				</p>
+				<input type="radio" name="date" value="0" /> Martin<br />
+				<input type="radio" name="date" value="0" /> Jodeci<br />
+				<input type="radio" name="date" value="10" /> Kid from Kid-N-Play<br />
+				<input type="radio" name="date" value="0" /> Play from Kid-N-Play<br />
+
+				<p>Question 2: Martin and Gina try to expose a crooked preacher named Reverend Leon Lonnie Love. Who played the Reverend?
+				</p>
+				<input type="radio" name="rev" value="0" /> Steve Harvey <br />
+				<input type="radio" name="rev" value="0" /> D.L. Hughley<br />
+				<input type="radio" name="rev" value="0" /> Tommy Davidson<br />
+				<input type="radio" name="rev" value="10" /> David Alan Grier
+				<br />
+
+				<p> Question 3: What does the character "Jerome" say every time he comes on screen on the sitcom "Martin"?</p>
+				<input type="radio" name="say" value="0" /> I Likes Me a Junk in the Trunk<br />
+				<input type="radio" name="say" value="0" /> Don't you know no good<br />
+				<input type="radio" name="say" value="0" /> It must be Jelly cause jam don't shake like that<br />
+				<input type="radio" name="say" value="10" /> Jerome's in the House, I say Jerome's in the House<br />
+
+				<p>Question 4: In episode #70 of the show "Martin", how much does Mr. Lopez increase Martin and Gina's rent by?
+				</p>
+				<input type="radio" name="rent" value="0" /> He doubles it<br />
+				<input type="radio" name="rent" value="0" /> $50<br />
+				<input type="radio" name="rent" value="0" /> $5<br />
+				<input type="radio" name="rent" value="10" /> 5%<br />
+
+				<p>Question 5: What is Gina's last name?
+				</p>
+				<input type="radio" name="last" value="0" /> James<br />
+				<input type="radio" name="last" value="0" /> Strong<br />
+				<input type="radio" name="last" value="10" /> Waters<br />
+				<input type="radio" name="last" value="0" /> Jackson
+				<br />
+
+				<p>Question 6: What is the name of the old lady Martin has fought on several episodes?
+					?</p>
+					<input type="radio" name="old" value="0" /> Mrs. Porter<br />
+					<input type="radio" name="old" value="0" /> Mrs. Ethel<br />
+					<input type="radio" name="old" value="10" /> Mrs. Jeri<br />
+					<input type="radio" name="old" value="0" /> Mrs. Williamson
+					<br />
+					<p>Question 7:  When Martin ran away and joined a cult, what did he change his name to?</p>
+					<input type="radio" name="cult" value="10" /> Brother Shaquille Sunflower<br />
+					<input type="radio" name="cult" value="0" /> The Rock
+					<br />
+					<input type="radio" name="cult" value="0" /> Marty Payne
+					<br />
+					<input type="radio" name="cult" value="0" /> Raw Dawg
+					<br />
+
+					<p>Question 8:  Name one of Shenehneh's friends?</p>
+					<input type="radio" name="friend" value="0" /> Lamika<br />
+					<input type="radio" name="friend" value="0" /> Kiari
+					<br />
+					<input type="radio" name="friend" value="10" /> Keylowlow
+					<br />
+					<input type="radio" name="friend" value="0" /> Shaquanda<br />
+					<p>Question 9:  Which of the  following people was one of Gina's bosses?</p>
+					<input type="radio" name="boss" value="0" /> Mr. White <br />
+					<input type="radio" name="boss" value="0" /> Mr. Wilson
+					<br />
+					<input type="radio" name="boss" value="0" /> Mr Williams
+					<br />
+					<input type="radio" name="boss" value="0" /> Mr. Whitaker<br />
+					<p>Question 10: Were Martin and Pam were once married on the show? </p>
+					<input type="radio" name="married" value="10" /> Yes <br />
+					<input type="radio" name="married" value="0" /> No
+					<br />
+
+
+					<input type="submit" id="subB" value="Submit">
+					<div id="score">
+					</div>
+					<div id ="scoreGif">
+					</div>
+
+				</form>
+				</div>
+				</div>
+				
+			</div>
+			<div class="row">
+			<div class="col-md-2">	
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="./assets/javascript/app.js"></script>
+	
+</body>
+</html>

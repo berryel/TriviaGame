@@ -1,0 +1,65 @@
+
+body {
+	margin: 0;
+    background-image: url("../images/backgrounds-20361.jpg");
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+#headerImg h1 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 60px;
+	letter-spacing: 4px;
+	color: black;
+}
+
+#headerImg {
+    padding:10px;
+    margin: 20px;
+    margin-left: 25%;
+    text-align: center;
+    background-color: white;
+}
+
+#cast {
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#StartButton {
+	margin-left: 30%;
+}
+
+.btn-primary.active {
+	background-color: #3C763D;
+	font-size: 30px;
+}
+
+#quiz {
+	margin-left: 0%;
+	font-size: 16px;
+	background-color: orange;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	border:3px solid black;
+	padding: 20px;
+	width: 800px;
+    height: 400px;
+    overflow: scroll;
+}
+
+#quiz p {
+	/*text-align: center;*/
+	font-weight: bolder;
+	padding: 10px;
+
+
+	
+}
+
+#subB {
+	margin-left: 50%;
+}
+
