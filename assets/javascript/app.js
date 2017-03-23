@@ -2,6 +2,7 @@ $( document ).ready(function(){
 
 
 	$('#quiz').hide();
+	$('#scoreGif').hide();
 
 	$('#startButton').click(function(){
 
@@ -31,13 +32,22 @@ $( document ).ready(function(){
 	   q9= parseInt(document.querySelector('input[name = "boss"]:checked').value);
 	   q10=parseInt(document.querySelector('input[name = "married"]:checked').value);
 	   
-	   score = q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;
+	   var score = q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;
+
+	   
 	   
 document.getElementById("score").innerHTML = 'Your score is: '+ score;
+ $('#scoreGif').show();
 
 return false;
 
+
+
+
+
 };
+
+
 
 
 	

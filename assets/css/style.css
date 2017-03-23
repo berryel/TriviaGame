@@ -69,5 +69,25 @@ body {
  font-family: 'Noto Sans', sans-serif;
  color: black;
  font-weight: bold;
+
+}
+
+#scoreGif {
+	margin-left: 25%;
+
+}
+
+#scoreGif img {
+	border:3px solid white;
+
+}
+
+#scoreGif p {
+	margin-left: 25%;
+	font-size: 18px;
+	color: black;
+	font-family: 'Noto Sans', sans-serif;
+
+
 }
 
