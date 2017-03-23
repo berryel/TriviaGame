@@ -1,5 +1,21 @@
 $( document ).ready(function(){
 
+
+	$('#quiz').hide();
+
+	$('#startButton').click(function(){
+
+    $(this).hide();
+    $('#quiz').fadeIn(1000);
+		});
+
+	
+
+
+	
+
+
+
 	document.getElementById("quiz").onsubmit=function() {
        q1= parseInt(document.querySelector('input[name = "date"]:checked').value);
 	   q2= parseInt(document.querySelector('input[name = "rev"]:checked').value);
