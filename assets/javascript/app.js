@@ -17,6 +17,9 @@ $( document ).ready(function(){
 
 
 	document.getElementById("quiz").onsubmit=function() {
+
+		$('#quiz').hide();
+
        q1= parseInt(document.querySelector('input[name = "date"]:checked').value);
 	   q2= parseInt(document.querySelector('input[name = "rev"]:checked').value);
 	   q3= parseInt(document.querySelector('input[name = "say"]:checked').value);

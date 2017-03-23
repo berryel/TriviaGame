@@ -63,3 +63,11 @@ body {
 	margin-left: 50%;
 }
 
+#score {
+ margin-left: 30%;
+ font-size:40px;
+ font-family: 'Noto Sans', sans-serif;
+ color: black;
+ font-weight: bold;
+}
+
